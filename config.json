@@ -1,0 +1,13 @@
+{
+    "number_of_cam": 6, 
+    "width": 1080,
+    "heigth": 720, 
+    "cam_url" : {
+        "1": "rtsp://localhost:8554/cam1",
+        "2": "rtsp://localhost:8554/cam2",
+        "3": "rtsp://localhost:8554/cam3",
+        "4": "rtsp://localhost:8554/cam10",
+        "5": "rtsp://localhost:8554/cam4",
+        "6": "rtsp://localhost:8554/cam5"
+    }
+}
