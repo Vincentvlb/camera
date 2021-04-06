@@ -122,7 +122,7 @@ bool init_app(app_params_t *pt_app_params)
     std::cout << "Init ttf_font..." << std::endl;
     //Initialisation de la librairie SDL qui gère l'affichage des textes de notre application.
     TTF_Init();
-    if((pt_app_params->font = TTF_OpenFont("./resources/arial.ttf", 18)) == NULL)
+    if((pt_app_params->font = TTF_OpenFont("./ressources/arial.ttf", 18)) == NULL)
         printf("TTF_OpenFont: %s\n", TTF_GetError());
 
     SDL_Window * window = nullptr;
@@ -142,7 +142,7 @@ bool init_app(app_params_t *pt_app_params)
 
     //Mise en place de l'image de l'icône de notre application.
     SDL_Surface* iconSurface;
-    iconSurface = SDL_LoadBMP("./resources/icon.bmp");
+    iconSurface = SDL_LoadBMP("./ressources/icon.bmp");
     SDL_SetWindowIcon(window, iconSurface);
 
     //Retour du bon fonctionnemnt de cette fonction.
